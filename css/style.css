@@ -96,7 +96,8 @@ h1{
 }
 
 .about h1{
-  color:#3378b7;
+  text-align: center;
+  color:#10485F;
 }
 
 /* CAREER*/
@@ -140,5 +141,16 @@ h1{
 }
 
 
+/*PROJECTS*/
 
+.projects{
+  padding:60px 0 60px 0;
+  text-align: center;
+  background-color:#10485F;
+  color:#b9b9b9;
+}
 
+.projects img{
+  padding:20px 0 20px 0;
+  text-align: center;
+}
