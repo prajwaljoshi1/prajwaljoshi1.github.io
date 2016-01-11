@@ -113,3 +113,32 @@ h1{
   padding-bottom: 20px;
 }
 
+
+/* TECHNOLOGY*/
+
+.technologies{
+  padding:90px 0 90px 0;
+  text-align: center;
+}
+
+.technologies h1{
+  font-size:2.5em;
+  color:#10485F;
+}
+
+.technologies .sub-title{
+  padding-bottom: 20px;
+}
+
+.technologies .tech-logo li img{
+  opacity: 0.3;
+  padding-bottom: 20px;
+}
+
+.technologies .tech-logo li:hover img{
+  opacity: 1;
+}
+
+
+
+
