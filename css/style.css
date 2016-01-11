@@ -92,6 +92,7 @@ h1{
 
 .about{
   padding:100px 0 100px 0;
+
 }
 
 .about h1{
@@ -101,9 +102,14 @@ h1{
 /* CAREER*/
 
 .career{
+  padding:60px 0 60px 0;
   text-align: center;
   background-color:#10485F;
   color:#b9b9b9;
 
+}
+
+.career .sub-title{
+  padding-bottom: 20px;
 }
 
