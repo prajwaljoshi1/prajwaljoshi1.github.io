@@ -33,6 +33,10 @@ h1{
   font-size:1.5em;
 }
 
+.navbar-default .nav li.active a {
+   color: #1d1d1d;
+}
+
 /* HEADER*/
 
 .header{
