@@ -34,7 +34,7 @@ h1{
 }
 
 .navbar-default .nav li.active a {
-   color: #1d1d1d;
+ color:#1d1d1d !important;
 }
 
 /* HEADER*/
