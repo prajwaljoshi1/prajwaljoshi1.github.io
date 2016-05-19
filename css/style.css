@@ -41,8 +41,19 @@ h1{
 
 .header{
   padding:140px 0 60px 0;
-  background: url(../img/background.jpg) no-repeat center center;
-  background-size: cover;
+
+
+
+  background: #005C97; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #005C97 , #363795); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /*background: url(../img/background.jpg) no-repeat center center;*/
+  /*background-size: cover;*/
   width:100%
   border-bottom:2px solid #c9c9c9;
 }
@@ -67,9 +78,9 @@ h1{
 .header .btn{
   padding:5px 70px 5px 70px;
   border-radius: 0px;
-  color: #b9b9b9; 
-  background-color: #242424; 
-  border-color: #b9b9b9; 
+  color: #b9b9b9;
+  background-color: #242424;
+  border-color: #b9b9b9;
 }
 
 
@@ -97,11 +108,19 @@ h1{
 .about{
   padding:100px 0 100px 0;
 
+
+
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
 
 .about h1{
   text-align: center;
-  color:#10485F;
+  color:#294196;
 }
 
 /* CAREER*/
@@ -109,7 +128,12 @@ h1{
 .career{
   padding:60px 0 60px 0;
   text-align: center;
-  background-color:#10485F;
+
+
+background: #005C97; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #005C97 , #363795); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color:#b9b9b9;
 
 }
@@ -124,11 +148,15 @@ h1{
 .technologies{
   padding:90px 0 90px 0;
   text-align: center;
+
+    background: #8e9eab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .technologies h1{
   font-size:2.5em;
-  color:#10485F;
+  color:#294196;
 }
 
 .technologies .sub-title{
@@ -150,7 +178,11 @@ h1{
 .projects{
   padding:60px 0 60px 0;
   text-align: center;
-  background-color:#10485F;
+  background: #005C97; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #005C97, #363795);
+  background: -o-linear-gradient(right, #005C97, #363795);
+  background: linear-gradient(to left, #005C97, #363795); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color:#b9b9b9;
 }
 
@@ -164,11 +196,16 @@ h1{
 .contact-me{
   padding: 100px 0 100px 0;
   text-align: center;
+
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .contact-me h1{
   font-size: 2em;
-  color: #10485F;
+  color: #294196;
 }
 
 .contact-me .sub-title{
@@ -176,7 +213,7 @@ h1{
 }
 
 .contact-me .fa{
-    color: #10485F;
+    color: #294196;;
     padding: 5px 10px 20px 0;
 }
 
