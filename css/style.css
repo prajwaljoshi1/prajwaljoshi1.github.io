@@ -109,17 +109,9 @@ h1{
 .about{
   padding:100px 0 100px 0;
 
-
-
-
-
   background: #E0EAFC; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #E0EAFC , #CFDEF3); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #E0EAFC , #CFDEF3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-
 }
 
 .about h1{
@@ -132,12 +124,9 @@ h1{
 .career{
   padding:60px 0 60px 0;
   text-align: center;
-
-
-background: #005C97; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #005C97 , #363795); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #005C97; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #005C97 , #363795); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color:#b9b9b9;
 
 }
@@ -217,7 +206,7 @@ background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, F
 }
 
 .contact-me .fa{
-    color: #294196;;
+    color: #294196;
     padding: 5px 10px 20px 0;
 }
 
@@ -238,4 +227,9 @@ background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, F
 .tech{
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.about-me-blockquote{
+  color: #294196;
+  border-color: #294196;
 }
