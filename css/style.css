@@ -233,3 +233,7 @@ h1{
   color: #294196;
   border-color: #294196;
 }
+
+.project{
+  cursor:pointer;
+}
