@@ -2,21 +2,26 @@
 /* GLOBAL*/
 
 p{
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 h1{
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 
 /* NAVBAR*/
 
 .navbar{
-  background-color: #242424;
+  background-color:#294196;
   /*background-color: rgba(0, 0, 0, 0.6);*/
   border-bottom:1px solid #b9b9b9;
   font-family: 'Lato', sans-serif;
+
+    -webkit-box-shadow: 0px 3px 5px #333;
+    -moz-box-shadow:    0px 3px 5px #333;
+    box-shadow:         0px 3px 5px #333;
+    z-index:10;
 }
 
 .navbar a{
@@ -43,21 +48,15 @@ h1{
 .header{
   padding:140px 0 60px 0;
 
-
-
   background: #005C97; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #005C97 , #363795); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width:100%;
+  /*border-bottom:2px solid #333;*/
 
 
-
-
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  /*background: url(../img/background.jpg) no-repeat center center;*/
-  /*background-size: cover;*/
-  width:100%
-  border-bottom:2px solid #c9c9c9;
 }
+
 
 .header h1{
   color:#b9b9b9;
@@ -85,6 +84,12 @@ h1{
 }
 
 
+.header .btn:hover{
+
+  color: #b9b9b9;
+  background-color: rgba(00, 00, 00, 0.1);
+}
+
 @media(max-width:768px){
   .header{
     text-align: center;
@@ -104,6 +109,7 @@ h1{
   }
 }
 
+
 /* ABOUT ME*/
 
 .about{
@@ -112,6 +118,11 @@ h1{
   background: #E0EAFC; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #E0EAFC , #CFDEF3); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #E0EAFC , #CFDEF3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-box-shadow: 0px 3px 5px #333;
+  -moz-box-shadow:    0px 3px 5px #333;
+  box-shadow:         0px 3px 5px #333;
+  z-index:12;
 }
 
 .about h1{
@@ -217,7 +228,7 @@ h1{
 /*FOOTER*/
 
 .footer{
-  background: #242424;
+  background:#294196;
   color: #b9b9b9;
   border-top: 1px solid #b9b9b9;
   padding:14px 0 14px 0;
