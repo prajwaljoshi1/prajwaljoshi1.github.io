@@ -190,12 +190,21 @@ h1{
   color:#b9b9b9;
 }
 
+
 .projects img{
   padding:0px 0 0px 0;
   border:2px solid #b9b9b9;
   text-align: center;
 }
 
+
+@media(max-width:480){
+  .projects img{
+    height:60%;
+    width: 60%;
+    padding:10px;
+  }
+}
 /*CONTACT*/
 
 .contact-me{
